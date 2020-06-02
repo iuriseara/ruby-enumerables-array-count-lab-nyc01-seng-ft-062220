@@ -13,5 +13,7 @@ def count_empty_strings(array)
   index = 0
   array.count do |item|
     if item == " "
-      index += 1  
+      index += 1
+    end
+  end     
 end
