@@ -5,7 +5,6 @@ array.index do |element|
   if element.class == String
     index += 1
   end
-end
 return index
 
 def count_empty_strings(array)
