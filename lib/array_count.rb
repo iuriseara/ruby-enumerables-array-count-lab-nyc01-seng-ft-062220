@@ -15,5 +15,4 @@ def count_empty_strings(array)
     if item == " "
       index += 1
     end
-  end     
-end
+  end
