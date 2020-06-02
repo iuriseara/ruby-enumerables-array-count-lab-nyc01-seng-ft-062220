@@ -4,6 +4,7 @@ index = 0
 array.count do |element|
   if element.class == String
     index += 1
+  end
 end
 
 def count_empty_strings(array)
